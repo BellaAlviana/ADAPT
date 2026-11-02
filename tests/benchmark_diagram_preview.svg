@@ -1,0 +1,79 @@
+<svg viewBox="0 0 1460 1008" width="1460" height="1008" xmlns="http://www.w3.org/2000/svg" style="font-family: system-ui, -apple-system, 'Segoe UI', Roboto, Helvetica, Arial, sans-serif; background: #ffffff; display: block; margin: 0 auto;">
+  <defs>
+    <marker id="arrow" viewBox="0 0 10 10" refX="9" refY="5" markerWidth="6" markerHeight="6" orient="auto">
+      <path d="M 0 1.5 L 9 5 L 0 8.5 z" fill="#000000" />
+    </marker>
+  </defs>
+
+  <!-- Swimlane Table Frame -->
+  <rect x="30" y="20" width="1400" height="978" fill="#ffffff" stroke="#000000" stroke-width="1.4" />
+  <line x1="30" y1="54" x2="1430" y2="54" stroke="#000000" stroke-width="1.4" />
+  <text x="170" y="42" text-anchor="middle" fill="#000000" font-size="13" font-weight="600">Manajer Produksi</text>
+  <line x1="310" y1="20" x2="310" y2="998" stroke="#000000" stroke-width="1.2" />
+  <text x="450" y="42" text-anchor="middle" fill="#000000" font-size="13" font-weight="600">Sistem Otomasi Pabrik</text>
+  <line x1="590" y1="20" x2="590" y2="998" stroke="#000000" stroke-width="1.2" />
+  <text x="730" y="42" text-anchor="middle" fill="#000000" font-size="13" font-weight="600">Lini A</text>
+  <line x1="870" y1="20" x2="870" y2="998" stroke="#000000" stroke-width="1.2" />
+  <text x="1010" y="42" text-anchor="middle" fill="#000000" font-size="13" font-weight="600">Lini B</text>
+  <line x1="1150" y1="20" x2="1150" y2="998" stroke="#000000" stroke-width="1.2" />
+  <text x="1290" y="42" text-anchor="middle" fill="#000000" font-size="13" font-weight="600">Robot Perakit</text>
+  <path d="M 170 96 L 170 156" fill="none" stroke="#000000" stroke-width="1.2" marker-end="url(#arrow)" />
+  <path d="M 170 206 L 170 224 L 450 224 L 450 242" fill="none" stroke="#000000" stroke-width="1.2" marker-end="url(#arrow)" />
+  <path d="M 450 292 L 450 310 L 730 310 L 730 328" fill="none" stroke="#000000" stroke-width="1.2" marker-end="url(#arrow)" />
+  <path d="M 730 336 L 730 414" fill="none" stroke="#000000" stroke-width="1.2" marker-end="url(#arrow)" />
+  <path d="M 730 464 L 730 500" fill="none" stroke="#000000" stroke-width="1.2" marker-end="url(#arrow)" />
+  <path d="M 1010 336 L 1010 414" fill="none" stroke="#000000" stroke-width="1.2" marker-end="url(#arrow)" />
+  <path d="M 1010 464 L 1010 500" fill="none" stroke="#000000" stroke-width="1.2" marker-end="url(#arrow)" />
+  <path d="M 730 556 L 730 586" fill="none" stroke="#000000" stroke-width="1.2" marker-end="url(#arrow)" />
+  <path d="M 1010 556 L 1010 586" fill="none" stroke="#000000" stroke-width="1.2" marker-end="url(#arrow)" />
+  <path d="M 730 594 L 730 633 L 450 633 L 450 672" fill="none" stroke="#000000" stroke-width="1.2" marker-end="url(#arrow)" />
+  <path d="M 450 722 L 450 740 L 1290 740 L 1290 758" fill="none" stroke="#000000" stroke-width="1.2" marker-end="url(#arrow)" />
+  <path d="M 1290 808 L 1290 844" fill="none" stroke="#000000" stroke-width="1.2" marker-end="url(#arrow)" />
+  <path d="M 1290 894 L 1290 930" fill="none" stroke="#000000" stroke-width="1.2" marker-end="url(#arrow)" />
+  <!-- Initial Node (Solid Black Circle) -->
+  <g><title>Initial Node (Titik Mulai)</title><circle cx="170" cy="83" r="12" fill="#000000" stroke="#000000" stroke-width="1" /></g>
+  <text x="170" y="64" text-anchor="middle" fill="#000000" font-size="11" font-weight="bold">Mulai</text>
+  <!-- Action Node -->
+  <rect x="80" y="156" width="180" height="50" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="1.3" />
+  <text x="170" y="177.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Menekan Tombol Mulai</text>
+  <text x="170" y="192.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Perakitan</text>
+  <!-- Action Node -->
+  <rect x="360" y="242" width="180" height="50" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="1.3" />
+  <text x="450" y="263.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Mengirim Instruksi</text>
+  <text x="450" y="278.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Kerja</text>
+  <!-- Fork Node (Pemisahan Alur Paralel/Simultan - 1 In, >=2 Out) -->
+  <g><title>Fork Node (Pemisahan Alur Paralel/Simultan - 1 In, >=2 Out)</title><rect x="390" y="328" width="680" height="8" fill="#000000" rx="2" ry="2" /></g>
+  <!-- Action Node -->
+  <rect x="640" y="414" width="180" height="50" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="1.3" />
+  <text x="730" y="435.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Mengelas Kerangka</text>
+  <text x="730" y="450.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Besi</text>
+  <!-- Action Node -->
+  <rect x="630" y="500" width="200" height="56" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="1.3" />
+  <text x="730" y="524.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Mengirim Kerangka Ke</text>
+  <text x="730" y="539.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Titik Perakitan</text>
+  <!-- Action Node -->
+  <rect x="920" y="414" width="180" height="50" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="1.3" />
+  <text x="1010" y="435.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Menyuntikkan Plastik</text>
+  <text x="1010" y="450.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Ke Cetakan</text>
+  <!-- Action Node -->
+  <rect x="910" y="500" width="200" height="56" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="1.3" />
+  <text x="1010" y="524.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Mengirim Komponen Ke</text>
+  <text x="1010" y="539.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Titik Perakitan</text>
+  <!-- Join Node (Sinkronisasi Alur Paralel/Simultan - >=2 In, 1 Out) -->
+  <g><title>Join Node (Sinkronisasi Alur Paralel/Simultan - >=2 In, 1 Out)</title><rect x="390" y="586" width="680" height="8" fill="#000000" rx="2" ry="2" /></g>
+  <!-- Action Node -->
+  <rect x="360" y="672" width="180" height="50" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="1.3" />
+  <text x="450" y="693.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Memastikan Kedua</text>
+  <text x="450" y="708.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Komponen Tiba</text>
+  <!-- Action Node -->
+  <rect x="1200" y="758" width="180" height="50" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="1.3" />
+  <text x="1290" y="779.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Merakit Kedua</text>
+  <text x="1290" y="794.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Komponen</text>
+  <!-- Action Node -->
+  <rect x="1200" y="844" width="180" height="50" rx="10" ry="10" fill="#ffffff" stroke="#000000" stroke-width="1.3" />
+  <text x="1290" y="865.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Menghasilkan Produk</text>
+  <text x="1290" y="880.5" text-anchor="middle" fill="#000000" font-size="11" font-weight="500">Final</text>
+  <!-- Final Node (Bullseye) -->
+  <g><title>Activity Final Node (Titik Selesai Alur)</title><circle cx="1290" cy="944" r="13" fill="#ffffff" stroke="#000000" stroke-width="1.4" /><circle cx="1290" cy="944" r="7.5" fill="#000000" /></g>
+  <text x="1290" y="974" text-anchor="middle" fill="#000000" font-size="11" font-weight="bold">Selesai</text>
+</svg>
